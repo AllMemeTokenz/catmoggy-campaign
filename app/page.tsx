@@ -65,7 +65,7 @@ export default function HomePage() {
                 </h3>
                 <div className="font-semibold flex flex-col sm:flex-row items-center justify-center text-center sm:space-x-5 space-y-3 sm:space-y-0 relative px-6 border border-[#483f3b] shadow-[1px_1px_0_#483f3b] transition-all ease-linear duration-100 bg-[#e5e3dc] text-[#065F46] text-[17px] py-3 rounded-xl">
                   <span className="break-all sm:break-normal">
-                  ekstwkMMWddZSjPa5xwvr6th6LebANqVByAb3Bgdood
+                    HDoAKhCoEuuHzjMB6Q8AgKJyg5uT9APpDnynXAJQdfVW
                   </span>
                   <a
                     onClick={() => {
