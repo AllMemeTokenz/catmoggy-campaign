@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <>
       {/* Red slider for sm devices */}
-      <nav className="h-[40px] z-[9997] flex w-full top-0 fixed lg:hidden text-amber-200 border-b-2 border-amber-200 font-medium items-center justify-center bg-amber-900">
+      <nav className="h-[40px] z-[9997] flex w-full top-0 fixed lg:hidden text-[#D1FAE5] border-b-2 border-[] #D1FAE5font-medium items-center justify-center bg-[#065F46]">
         <TextScroller />
       </nav>
       <motion.div
@@ -22,14 +22,14 @@ export default function Header() {
           <div className="w-full flex items-center flex-row justify-center">
             <h1
               onClick={() => router.replace("/")}
-              className="text-2xl font-semibold cursor-pointer active:scale-[0.98] text-[#483f3b]"
+              className="text-2xl font-semibold cursor-pointer active:scale-[0.98] text-[#065F46]"
             >
               $CATMOGGY
             </h1>
           </div>
         </header>
         {/* Red slider for lg devices */}
-        <nav className="h-[40px] mt-[68px] w-full hidden lg:flex text-[#ccc8bc] border-b-2 border-[#ccc8bc] font-medium items-center justify-center bg-[#483f3b]">
+        <nav className="h-[40px] mt-[68px] w-full hidden lg:flex text-[#D1FAE5] border-b-2 border-[#D1FAE5] font-medium items-center justify-center bg-[#065F46]">
           <TextScroller />
         </nav>
       </motion.div>

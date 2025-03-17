@@ -7,7 +7,7 @@ export const telegramLink = "https://x.com/CatmoggyX"; // Telegram
 export const twitterLink = "https://t.me/catsmoggy"; // Twitter
 
 // Token Info
-export const tokenCA = "7RBeTk836UX49CaaxLFkoo1Fmw5vCa58CghpCYYitJEt"; // Token contract
+export const tokenCA = "ekstwkMMWddZSjPa5xwvr6th6LebANqVByAb3Bgdood"; // Token contract
 
 // Page contents
 export default {

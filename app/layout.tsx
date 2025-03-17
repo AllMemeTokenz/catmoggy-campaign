@@ -92,7 +92,7 @@ export default function RootLayout({
                 {/* Replace with your actual logo */}
                 <div className="flex items-center">
                   <div className="p-2 rounded-lg">
-                    <span className="font-bold text-2xl text-[#483f3b]">
+                    <span className="font-bold text-2xl text-[#065F46]">
                       $CATMOGGY
                     </span>
                   </div>
@@ -101,7 +101,7 @@ export default function RootLayout({
             </div>
 
             {/* Copyright on the right */}
-            <div className="text-[#483f3b] font-medium text-sm sm:text-base">
+            <div className="text-[#065F46] font-medium text-sm sm:text-base">
               © $CATMOGGY 2025. All rights reserved.
             </div>
           </div>
