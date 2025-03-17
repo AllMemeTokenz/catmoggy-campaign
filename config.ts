@@ -3,8 +3,8 @@
  */
 
 // Socials
-export const telegramLink = "https://x.com/CatmoggyX"; // Telegram
-export const twitterLink = "https://t.me/catsmoggy"; // Twitter
+export const telegramLink = "https://t.me/catsmoggy"; // Telegram
+export const twitterLink = "https://x.com/CatmoggyX"; // Twitter
 
 // Token Info
 export const tokenCA = "HDoAKhCoEuuHzjMB6Q8AgKJyg5uT9APpDnynXAJQdfVW"; // Token contract
