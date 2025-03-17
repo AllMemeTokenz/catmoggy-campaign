@@ -17,19 +17,19 @@ export default function Header() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.3 }}
       >
-        <header className="fixed z-[9998] grid lg:mt-0 mt-[40px] px-5 grid-cols-2 md:grid-cols-3 grid-rows-1 top-0 left-0 right-0 w-full h-[68px] bg-amber-50 border-b-2 border-zinc-800">
+        <header className="fixed z-[9998] grid lg:mt-0 mt-[40px] px-5 grid-cols-2 md:grid-cols-3 grid-rows-1 top-0 left-0 right-0 w-full h-[68px] bg-stone-100 border-b-2 border-zinc-800">
           <div className="w-full hidden md:flex flex-row items-center justify-start space-x-6"></div>
           <div className="w-full flex items-center flex-row justify-center">
             <h1
               onClick={() => router.replace("/")}
-              className="text-2xl font-semibold cursor-pointer active:scale-[0.98] text-amber-900"
+              className="text-2xl font-semibold cursor-pointer active:scale-[0.98] text-[#483f3b]"
             >
               $CATMOGGY
             </h1>
           </div>
         </header>
         {/* Red slider for lg devices */}
-        <nav className="h-[40px] mt-[68px] w-full hidden lg:flex text-amber-200 border-b-2 border-amber-200 font-medium items-center justify-center bg-amber-900">
+        <nav className="h-[40px] mt-[68px] w-full hidden lg:flex text-[#ccc8bc] border-b-2 border-[#ccc8bc] font-medium items-center justify-center bg-[#483f3b]">
           <TextScroller />
         </nav>
       </motion.div>
