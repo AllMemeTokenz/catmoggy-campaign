@@ -23,19 +23,19 @@ export default function RootLayout({
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="$CTY is a playful digital cat mascot. Join the community now and explore the purrfect world of cat themed NFTs!"
+          content="$CATMOGGY is a Fundraising to help sick and stray Moggy cats worldwide."
         />
         <meta
           name="keywords"
-          content="cats, funny, crypto, pumpfun, raydium, memecoin, telegram mini app, telegram app, cats app, catsplay, cty"
+          content="catmoggy, moggy, crypto, raydium, memecoin"
         />
-        <meta name="author" content="$CTY" />
+        <meta name="author" content="$CATMOGGY" />
         {/* Open Graph meta tags for social sharing */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="$CTY" />
+        <meta property="og:title" content="$CATMOGGY" />
         <meta
           property="og:description"
-          content="$CTY is a playful digital cat mascot. Join the community now and explore the purrfect world of cat themed NFTs!"
+          content="$CATMOGGY is a Fundraising to help sick and stray Moggy cats worldwide."
         />
         <meta
           property="og:image"
@@ -47,10 +47,10 @@ export default function RootLayout({
         />
         {/* Twitter card meta tags */}
         <meta name="twitter:card" content="" />
-        <meta name="twitter:title" content="$CTY" />
+        <meta name="twitter:title" content="$CATMOGGY" />
         <meta
           name="twitter:description"
-          content="$CTY is a playful digital cat mascot. Join the community now and explore the purrfect world of cat themed NFTs!"
+          content="$CATMOGGY is a Fundraising to help sick and stray Moggy cats worldwide."
         />
         <meta
           name="twitter:image"
@@ -60,7 +60,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         {/* Theme color */}
         <meta name="theme-color" content="#fafaf2" />
-        <title>$CTY - Step Into the Digital Cat Universe!</title>
+        <title>$CATMOGGY - Fundraising to help sick and stray Moggy cats worldwide.</title>
       </head>
       <body
         className={
@@ -91,7 +91,7 @@ export default function RootLayout({
                 <div className="flex items-center">
                   <div className="p-2 rounded-lg">
                     <span className="font-bold text-2xl text-blue-950">
-                      CATSPLAY
+                      $CATMOGGY
                     </span>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export default function RootLayout({
 
             {/* Copyright on the right */}
             <div className="text-blue-950 font-medium text-sm sm:text-base">
-              © Catsplay 2025. All rights reserved.
+              © $CATMOGGY 2025. All rights reserved.
             </div>
           </div>
         </footer>

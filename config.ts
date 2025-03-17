@@ -11,12 +11,12 @@ export const tokenCA = "7RBeTk836UX49CaaxLFkoo1Fmw5vCa58CghpCYYitJEt"; // Token 
 
 // Page contents
 export default {
-  redLineText: "$CTY To The Moon!", // Red bar's text in top of the page
+  redLineText: "$CATMOGGY To The Moon!", // Red bar's text in top of the page
   // Main route (/)
   homeMainSection: {
-    title: "$CTY to the Moon",
+    title: "$CATMOGGY to the Moon",
     description:
-      "$CTY is a playful digital cat mascot. Join the community now and explore the purrfect world of cat themed NFTs!", // The \n component breaks lines if you want to add, you can.
+      "$CATMOGGY is a Fundraising to help sick and stray Moggy cats worldwide.", // The \n component breaks lines if you want to add, you can.
     buttons: [
       {
         text: tokenCA ? "Buy now" : "Join now",
@@ -27,7 +27,7 @@ export default {
   // Tokenomics route (/tokenomics)
   tokenomicsPage: {
     title: "TOKENOMICS",
-    description: "$CTY Tokenomics",
+    description: "$CATMOGGY Tokenomics",
   },
   // Tokenomics route (/roadmap)
   roadmapPage: {
