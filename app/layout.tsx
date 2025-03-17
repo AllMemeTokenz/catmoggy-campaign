@@ -60,7 +60,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         {/* Theme color */}
         <meta name="theme-color" content="#fafaf2" />
-        <title>$CATMOGGY - Fundraising to help sick and stray Moggy cats worldwide.</title>
+        <title>
+          $CATMOGGY - Fundraising to help sick and stray Moggy cats worldwide.
+        </title>
       </head>
       <body
         className={
