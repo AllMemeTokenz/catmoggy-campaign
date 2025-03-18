@@ -87,6 +87,66 @@ export default function HomePage() {
             </section>
           )}
 
+          {/* Whitepaper Section */}
+          <section className="w-full flex mt-20 flex-col items-center justify-center px-6 md:px-16">
+            <motion.div
+              className="flex flex-col w-full text-center items-center justify-start"
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              <h1 className="font-bold text-[32px] lg:text-[36px] xl:text-[40px] text-[#065F46]">
+                $CATMOGGY WHITEPAPER
+              </h1>
+              <h2 className="font-medium leading-7 text-lg xl:text-xl text-[#065F46] max-w-2xl mt-2">
+                CATMOGGY ($CATMOGGY): Fundraising to help sick and stray Moggy
+                cats worldwide.
+                <br />
+                Discover our vision, mission, and roadmap for the future of
+                CATMOGGY.
+              </h2>
+            </motion.div>
+
+            <motion.div
+              className="mt-8"
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.4, delay: 0.4 }}
+            >
+              <a
+                href="/whitepaper/whitepaper-catmoggy.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold cursor-pointer px-4 uppercase border border-[#483f3b] shadow-[2px_2px_0_#483f3b] active:shadow-[0.5px_0.5px_0_#483f3b] active:translate-x-[1px] active:translate-y-[1px] text-[#DCFCE7] active:scale-[0.99] transition-all ease-linear duration-100 hover:bg-[#064E3B]/80 active:bg-[#064E3B]/90 bg-[#064E3B]/70 text-[17px] py-2 rounded-xl flex items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                  />
+                </svg>
+                Download Whitepaper
+              </a>
+            </motion.div>
+
+            <motion.div
+              className="mt-6 text-[#065F46]/70 text-sm"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: 0.6 }}
+            >
+              Learn about our technology, tokenomics, and the future of CatsPlay
+            </motion.div>
+          </section>
+
           <div className="w-full flex flex-row space-x-2 items-center justify-center mt-10 mb-16">
             <a
               id="twitterButton"
