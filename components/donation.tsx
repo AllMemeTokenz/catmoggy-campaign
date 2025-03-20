@@ -93,7 +93,7 @@ export function DonationWallet() {
     <section className="w-full flex mb-5 lg:mb-0 lg:mt-0 flex-col items-center justify-between lg:px-[111px] px-5 xl:px-[190px]">
       <div className="flex my-10 xl:mx-9 w-full flex-col items-center justify-center">
         <h2 className="text-3xl font-bold mb-2 text-center text-[#065F46]">
-          Wallet Donasi CatMoggy
+          Wallet Donation CatMoggy
         </h2>
         <h3 className="text-xl font-semibold mb-8 text-center text-[#065F46]">
           Hit the copy button so you won&apos;t get the address wrong!
