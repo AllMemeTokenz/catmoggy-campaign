@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { telegramLink, tokenCA, twitterLink } from "@/config";
 import toast from "react-hot-toast";
+import { DonationWallet } from "@/components/donation";
 
 // Define proper types for the button and line items
 
@@ -202,6 +203,7 @@ export default function HomePage() {
             </a>
           </div>
         </section>
+        <DonationWallet />
       </main>
     </motion.div>
   );
