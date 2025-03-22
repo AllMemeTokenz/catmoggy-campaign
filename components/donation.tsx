@@ -18,7 +18,7 @@ export function DonationWallet() {
   const walletAddresses: WalletAddress[] = [
     {
       name: "Bitcoin",
-      address: "bc1qd9e572vsegqfj973kdyrpgmhj3hjum5tytzx34",
+      address: "bc1qmeqdkv4vt7ma4995l0dqxg2asdteejl8strxc0",
       bgColor: "bg-[#FFF6E9]",
       textColor: "text-[#F7931A]",
       buttonBgColor: "bg-[#F7931A]/80",
@@ -28,7 +28,7 @@ export function DonationWallet() {
     },
     {
       name: "Ethereum",
-      address: "0x9ce4C032d5BE39deF0AD00DF4449f56d6757032D",
+      address: "0xA6Aa3525747fa1e0382623071488BEC13d76224d",
       bgColor: "bg-[#EEF2FF]",
       textColor: "text-[#627EEA]",
       buttonBgColor: "bg-[#627EEA]/80",
@@ -38,7 +38,7 @@ export function DonationWallet() {
     },
     {
       name: "Solana",
-      address: "88ZCJEBVGZLye58KBLWjMQbicopEkNAYGeWZRhqitePD",
+      address: "2LApUyH8iRPBJLyWtBFcrJykZUS9EJyVtQ17bnqq7yfU",
       bgColor: "bg-[#F5EEFF]",
       textColor: "text-[#9945FF]",
       buttonBgColor: "bg-gradient-to-r from-[#9945FF] to-[#14F195]",
@@ -48,7 +48,7 @@ export function DonationWallet() {
     },
     {
       name: "Binance",
-      address: "0x9ce4C032d5BE39deF0AD00DF4449f56d6757032D",
+      address: "0xA6Aa3525747fa1e0382623071488BEC13d76224d",
       bgColor: "bg-[#FFF9E6]",
       textColor: "text-[#F0B90B]",
       buttonBgColor: "bg-[#F0B90B]/80",
@@ -58,7 +58,7 @@ export function DonationWallet() {
     },
     {
       name: "USDC (SPL20)",
-      address: "88ZCJEBVGZLye58KBLWjMQbicopEkNAYGeWZRhqitePD",
+      address: "2LApUyH8iRPBJLyWtBFcrJykZUS9EJyVtQ17bnqq7yfU",
       bgColor: "bg-[#E6F0FF]",
       textColor: "text-[#2775CA]",
       buttonBgColor: "bg-[#2775CA]/80",
@@ -68,7 +68,7 @@ export function DonationWallet() {
     },
     {
       name: "USDT (TRC20)",
-      address: "TJeGt4cWLvpmDWaCdLUrCBcSX8k2FN3GAS",
+      address: "TQgAf2RMc4J1b6KUFewof2SebQUkQnXpBB",
       bgColor: "bg-[#E6F7F2]",
       textColor: "text-[#26A17B]",
       buttonBgColor: "bg-[#26A17B]/80",
